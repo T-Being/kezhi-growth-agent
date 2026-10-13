@@ -1,0 +1,41 @@
+[
+  {
+    "file": "product-overview.pdf",
+    "bytes": 2145178,
+    "sha256": "7b828523dfb6fe426d078fa495827e7a74abb18aa64099e6efce15b09235d615",
+    "status": "original-deliverable"
+  },
+  {
+    "file": "product-overview.pptx",
+    "bytes": 16724522,
+    "sha256": "f658a43c1df302d368a61a426064eceafffe4f4dcf9ef59a037628cec511e95c",
+    "status": "original-content-metadata-cleaned",
+    "metadataChange": "Removed creator and lastModifiedBy; all other archive members byte-identical."
+  },
+  {
+    "file": "evaluation-plan.pdf",
+    "bytes": 664539,
+    "sha256": "6142cb97168aaa22b57d96475f325ade62431168a1a007ceffabab9e6943a5f0",
+    "status": "original-deliverable"
+  },
+  {
+    "file": "evaluation-plan.docx",
+    "bytes": 73076,
+    "sha256": "312b24308dc4bead9c9f31cf3ec5ade6d23d999f794a22694c6de77ecd13a519",
+    "status": "original-content-metadata-cleaned",
+    "metadataChange": "Removed creator and lastModifiedBy; all other archive members byte-identical."
+  },
+  {
+    "file": "business-model-expansion.pdf",
+    "bytes": 678277,
+    "sha256": "d023aae6f07a5597a77a772e9231ee059c21ab4b408e5b2a3e4a54fac204568c",
+    "status": "original-deliverable"
+  },
+  {
+    "file": "business-model-expansion.docx",
+    "bytes": 1907966,
+    "sha256": "b066c19c06f87b8635dbb73f30eafe0fb76f99516b15dbdb6b433b26e50bc597",
+    "status": "original-content-metadata-cleaned",
+    "metadataChange": "Removed creator and lastModifiedBy; all other archive members byte-identical."
+  }
+]

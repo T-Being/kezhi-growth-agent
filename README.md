@@ -4,6 +4,10 @@
 
 **当前版本：1.2.0，可运行的前端产品原型。** 所有客户、数据、诊断、执行和复盘结果均为预置模拟内容。工程提供可复现的测试与构建；真实模型、广告平台、身份权限和服务端存储尚未接入，未完成商业上线验收。
 
+[在线体验既有演示版本](https://kezhi-growth-agent.pages.dev/) · [正式交付资料](deliverables/README.md) · [五分钟演示指南](docs/guides/demo.md)
+
+在线演示保留此前部署，与仓库后续提交不自动同步。
+
 ![客知增长工作台](assets/screenshots/workspace.png)
 
 ## 快速启动

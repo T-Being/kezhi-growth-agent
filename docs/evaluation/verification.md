@@ -2,7 +2,7 @@
 
 版本：1.2.0。验证日期：2026-10-13。
 
-环境：Windows，本地 Node.js 25.8.0，Playwright 1.64.0 与本机 Chrome。CI 配置为 Node.js 24 与 Playwright Chromium，尚未取得远端运行结果。
+环境：Windows，本地 Node.js 25.8.0，Playwright 1.64.0 与本机 Chrome。GitHub CI 使用 Ubuntu、Node.js 24 与 Playwright Chromium，已完成首次远端验证。
 
 ## 验证范围
 
@@ -14,10 +14,12 @@
 | 领域规则与静态服务边界 | 通过，8 项测试 | `npm test` |
 | 静态构建与资源引用 | 通过，7 个发布文件 | `npm run build` |
 | 构建后浏览器完整闭环 | 通过，1 个完整场景测试，35.1 秒；命令 38.8 秒正常退出 | `npm run test:e2e` |
-| GitHub CI | 待首次远端运行 | `.github/workflows/ci.yml` |
+| GitHub CI | 通过，2026-10-13 | [远端运行记录](https://github.com/T-Being/kezhi-growth-agent/actions/runs/38378793162) |
 | GitHub Pages | 未启用 | 可选手动发布，不自动迁移既有站点 |
 
 ## 浏览器验收内容
+
+首次远端验证提交为 `4fcc2b9fac5d0a7c8200614489bdc65545d14665`。依赖安装、Chromium 环境、仓库检查、8 项单元测试、静态构建和浏览器闭环全部通过。后续提交的验证状态以 [Actions](https://github.com/T-Being/kezhi-growth-agent/actions) 为准。
 
 正常预算调整、超限阻止、确认失效、刷新恢复、经验确认与客户记录分离、未知状态查询、部分成功重试、失败恢复、配置冲突、过期授权状态、数据不完整、桌面与移动布局，以及浏览器运行错误。
 

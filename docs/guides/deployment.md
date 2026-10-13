@@ -15,6 +15,8 @@ npm run preview
 
 ## GitHub
 
+公开工程仓库：[T-Being/kezhi-growth-agent](https://github.com/T-Being/kezhi-growth-agent)。正式资料、文档与源码已推送；首次 CI 验证结果见[版本验证记录](../evaluation/verification.md)。
+
 仓库推送到 `main` 或发起拉取请求后，`Verify project` 执行自动检查。绿色结果只覆盖原型工程行为，不代表商业准入。
 
 可选的 `Publish demo to GitHub Pages` 仅手动触发。需要仓库设置中把 Pages 构建来源设为 GitHub Actions，再从主分支运行工作流。工作流会先完整验收，再上传静态构建并部署；站点地址以运行结果为准。
